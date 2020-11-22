@@ -1,0 +1,15 @@
+.finalize{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+.final-preview{
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+    width: 50%;
+}
+.final-templates{
+
+}
