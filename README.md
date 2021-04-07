@@ -10,3 +10,8 @@
   <li>React-carousel for slides view </li>
   <li>Nodemailer for sending mail everytime someone creates a new account </li>
 </ul>
+
+<h2>Problems occured </h2>
+<ul>
+  <li>add blur and pop up button while hover on div and solved this by keeping isHover key in my state and marking it true while mouseOver is true and marking it false on mouseLEave event is active </li>
+  </ul>
