@@ -4,6 +4,7 @@
 <ul>
   <li>ReactJS Class Components</li>
   <li>React Redux for state manegement</li>
+  <li>Material UI for styled buttons and input box</li>
   <li>React-Spring for animating UI</li>
   <li>React-ParticleJS for background effects</li>
   <li>React-styled-components for better design </li>
