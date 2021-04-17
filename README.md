@@ -15,7 +15,7 @@
 
 <h2>Problems occured </h2>
 <ul>
- <li>can not push a nested object to firestore array, use spread operator(...) in front of your object instead(firebase.firestore.FieldValue.arrayUnion(...this.props.experienceDetails)).</li>
+ <li>can not push a nested objects to firestore array, use spread operator(...) in front of your object instead(firebase.firestore.FieldValue.arrayUnion(...this.props.experienceDetails)).</li>
   <li>add blur and pop up button while hovering on div and solved this by keeping isHover key in my state and marking it true while mouseOver is true and marking it false on mouseLEave event is active, then adding className conditionally on button and blur div</li>
   <li>Used history object of react render prop to navigate through different routes</li>
   </ul>
