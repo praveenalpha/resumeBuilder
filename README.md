@@ -1,5 +1,5 @@
 <h1 align="center"> Resume Builder </h1>
-
+<p align="center">Created a web app Resume Builder where user can create their real time updating resumes and select any resume at any moment. Used redux state manegement tool(only used post request twice in whole application, when user signup/signin and in last download/save to database option) which allowed my application to never slow down while using it.
 <h2>Learned And Used </h2>
 <ul>
   <li>ReactJS Class Components</li>
