@@ -9,7 +9,7 @@
   <li>React-ParticleJS for background effects</li>
   <li>React-styled-components for better design </li>
   <li>React-carousel for slides view </li>
-  <li>Nodemailer for sending mail everytime someone creates a new account </li>
+  <li>EmailJS for contactUs page mailing</li>
   <li>Firebase for backend</li>
 </ul>
 
