@@ -4,6 +4,7 @@
 <ul>
   <li>ReactJS Class Components</li>
   <li>React Redux for state manegement</li>
+  <li>Thunk for async call actions in redux </li>
   <li>Material UI for styled buttons and input box</li>
   <li>Framer-Motion for animating UI</li>
   <li>React-ParticleJS for background effects</li>
@@ -11,6 +12,7 @@
   <li>React-carousel for slides view </li>
   <li>EmailJS for contactUs page mailing</li>
   <li>Firebase for backend</li>
+  
 </ul>
 
 <h2>Problems occured </h2>
