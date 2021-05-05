@@ -1,0 +1,67 @@
+{
+  "name": "resume-builder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.3.1",
+    "firebase-admin": "^9.5.0",
+    "firebase-tools": "^9.10.0",
+    "framer-motion": "^4.1.4",
+    "particles.js": "2.0.0",
+    "prop-types": "^15.6.2",
+    "radium": "0.22.0",
+    "raf": "latest",
+    "random": "^2.0.13",
+    "react": "^17.0.1",
+    "react-dat-gui": "^1.0.2",
+    "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.2",
+    "react-github-corner": "^2.3.0",
+    "react-icons": "^4.2.0",
+    "react-kawaii": "^0.17.0",
+    "react-move": "^6.4.0",
+    "react-particles-js": "2.1.0",
+    "react-redux": "^7.2.2",
+    "react-redux-firebase": "^2.5.1",
+    "react-router-dom": "^5.2.0",
+    "react-samy-svg": "^3.0.7",
+    "react-scripts": "4.0.3",
+    "react-sizeme": "^2.5.2",
+    "react-to-pdf": "0.0.13",
+    "redux": "^4.0.5",
+    "redux-firestore": "^0.14.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
