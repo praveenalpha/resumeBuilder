@@ -1,0 +1,133 @@
+.final-page{
+    /* display: flex; */
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    background-color: #000029;
+    overflow-x: hidden;
+}
+.final-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.final{
+    position: absolute;
+    display: flex;
+    top: 12vh;
+    background: #fff;
+    height: 120vh;
+    width: 93vh;
+    left: 4vw;
+}
+.final-right-upper a{
+    text-decoration: none;
+}
+.final-right{
+    width: 50%;
+    position: relative;
+    top: 40vh;
+    left: 56vh;
+}
+.final-right-upper{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 12vh;
+    left: 54vw;
+}
+.final-right-upper button{
+    height: 7vh;
+    width: 20vw;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+    color: #CFEFEB;
+    background: none;
+    border: 1px solid #CFEFEB;
+    transition: all 0.2s;
+}
+.final-right-upper button:hover{
+    transform: scale(1.1);
+    background: #000029;
+    text-shadow: "0px 0px 8px rgb(255, 255, 255";
+    box-shadow: "0px 0px 8px rgb(255, 255, 255";
+}
+.final-right-resumes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.final-right-resume-div{
+    background-color: #fff;
+    height: 50vh;
+    width: 18vw;
+    margin-top: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-bottom: 5vh;
+    position: relative;
+}
+.final-right-resume-div img{
+    height: 100%;
+    width: 100%;
+}
+.final-right-resumes img:hover{
+    cursor: pointer;
+    
+}
+
+#final-page-long-btn{
+    width: 43vw;
+}
+.final-hover{
+    /* background-color: red; */
+    /* cursor: pointer; */
+    background-color: #fff;
+    height: 50vh;
+    width: 18vw;
+    margin-top: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-bottom: 5vh;
+    position: relative;
+}
+.final-hover img{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right top, #05052d, #3f3d5c, #7b788f, #bbb9c6, #ffffff);
+    /* background-color: red; */
+}
+.final-hover-circle{
+    height: 35vh;
+    width: 18vw;
+    background: #000080;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 341px;
+    cursor: pointer;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    color: #CFEFEB;
+}
+.final-hover-circle i{
+    font-size: 5vh;
+    margin-right: 1vw;
+    margin-top: 2vh;
+}
+.final-hover-circle h2{
+    margin-right: 1vw;
+    margin-top: 2vh;
+    font-size: 5vh;
+}
+.final-hover-circle-disable{
+    display: none;
+}
