@@ -1,0 +1,93 @@
+.skin6{
+    height: 100%;
+    /* width: 100%; */
+}
+.skin6-one{
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+.skin6-one h1{
+    margin: 0;
+    font-size: 3rem;
+}
+.skin6-one p{
+    color: gray;
+}
+.skin6-two{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1vw;
+    height: 15%;
+}
+.skin6-two h3{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.skin6-two p{
+    color: gray;
+}
+.skin6-three{
+    height: 15%;
+    width: 90%;
+    margin: auto;
+}
+.skin6-three h3{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.skin6-three-one{
+    display: flex;
+    justify-content: space-between;
+}
+.skin6-three-skills-one{
+
+}
+.skin6-four{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.skin6-four h3{
+    display: flex;
+    justify-content: end;
+}
+.skin6-four-inner{
+
+}
+.skin6-four-upper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.skin6-four-upper-one{
+
+}
+.skin6-four-upper-one h4{
+    margin: 0px;
+}
+.skin6-four-upper-two{
+
+}
+.skin6-five{
+    width: 90%;
+    margin: auto;
+    height: 15%;
+}
+.skin6-five h3{
+    display: flex;
+    justify-content: end;
+}
+.skin6-five-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.skin6-five-inner-one{
+
+}
+.skin6-five-inner-two{
+
+}

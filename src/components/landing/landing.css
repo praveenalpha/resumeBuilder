@@ -1,0 +1,83 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99.6vh;
+    background: none;
+    width: 99.7%;
+}
+.landing-img1{
+    background-image: url(https://cdn-images.zety.com/images/zety/landings/templates/introduction-left.png);
+}
+.landing a{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-h1{
+    height: 6vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 3vh;
+    position: absolute;
+    top: 10vh;
+    color: #CFEFEB;
+}
+.landing-h4{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 18vh;
+    color: #CFEFEB;
+}
+.landing h4{
+    font-style: italic;
+}
+.landing-btn{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin-left: 4vw;
+    position: absolute;
+    top: 30vh;
+}
+.landing-btn button{
+    height: 100%;
+    width: 75%;
+    color: #CFEFEB;
+    border: 1px solid #CFEFEB;
+    border-radius: 11px;
+    background: none;
+    font-size: x-large;
+    transition: all 0.2s;
+}
+.landing-btn button:hover{
+    box-shadow: "0px 0px 8px rgb(255, 255, 255"; 
+} 
+.landing-btn button:focus{
+    outline: none;
+}
+.landing-img{
+    height: 62vh;
+    width: 85vw;
+}
+.landing-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px none;
+  }
+  

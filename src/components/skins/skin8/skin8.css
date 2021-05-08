@@ -1,0 +1,102 @@
+.skin8{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.skin8-one-contact{
+  width: 90%;
+  margin: auto;
+  height: 20%;
+}
+.skin8-one-inner-one{
+  display: flex;
+  width: 50%;
+  /* justify-content: center; */
+  align-items: center;
+}
+.skin8-one-one{
+  height: 8vh;
+  width: 4vw;
+  background: 
+       linear-gradient(to top left,
+           rgba(0,0,0,1) 0%,
+           rgba(0,0,0,1) calc(50% - 0.8px),
+           rgba(0,0,0,0) 50%,
+           rgba(0,0,0,1) calc(50% + 0.8px),
+           rgba(0,0,0,1) 100%);
+  border: 1px solid;
+  margin-right: 1vw;
+}
+.skin8-one-one-one{
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  /* margin: 0; */
+  font-size: 2.5rem;
+  color: #fff;
+}
+.skin8-one-one-two{
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* margin: 0; */
+  font-size: 2.5rem;
+  color: #fff;
+}
+.skin8-one-two{
+  width: 40%;
+}
+.skin8-one-three{
+  display: flex;
+}
+.skin8-two-contact{
+  width: 90%;
+  margin: auto;
+  height: 15%;
+}
+.skin8-three-contact{
+  width: 90%;
+  margin: auto;
+  height: 20%;
+}
+.skin8-three-skills{
+  display: flex;
+  justify-content: space-between;
+}
+.skin8-four-contact{
+  width: 90%;
+  margin: auto;
+  height: auto;
+}
+.skin8-four-contact-upper{
+  display: flex;
+  justify-content: space-between
+}
+.skin8-four-contact-upper h4{
+  margin: 0px;
+}
+.skin8-five-contact{
+  width: 90%;
+  margin: auto;
+  height: 15%;
+}
+.skin8-five-contact h4{
+  margin: 0px;
+}
+.skin8-five-contact-inner{
+  display: flex;
+  justify-content: space-between;
+}
+.skin8-five-contact-inner-one{
+
+}
+.skin8-five-contact-inner-two{
+
+}
+.skin8 h3{
+  
+  display: flex;
+  justify-content: end;
+}

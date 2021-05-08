@@ -1,0 +1,114 @@
+
+  .templates{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+  .templates-color
+  {
+    height: 8vh;
+    width: 100%;
+    background: #9F46FB;
+  }
+  .templates-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    flex-direction: column;
+    transition: 0.5s;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+  }
+  .templates-upper h1{
+    font-size: xxx-large;
+    animation-name: color-change;
+    animation-duration: 900ms;
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+  }
+  .templates-upper p{
+      font-size: x-large;
+      margin-top: -1vh;
+      font-style: italic;
+      animation-name: color-change;
+    animation-duration: 900ms;
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    }
+@keyframes color-change{
+    from{color: black;}
+    to{color: white;}
+}
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px none;
+}
+.templates-bottom{
+  position: relative;
+  top: -63vh;
+  width: 98%;
+  left: 1vw;
+}
+.resume-templates-hover{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  /* position: relative; */
+}
+.resume-templates-div{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.resume-templates-div img{
+  height: 100%;
+  width: 100%;
+  transition: transform 0.5s;
+}
+.resume-templates-hover img{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  transition: transform 0.5s;
+  /* background: linear-gradient(to right top, #240b2d, #543c5b, #88718c, #bfacc2, #f9eafa); */
+  
+}
+.templates img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.svg{
+  background-image: linear-gradient(to bottom, #6a3093, #7835ad, #8639c7, #933fe3, #a044ff);
+}
+.svgOne{
+  position: absolute;
+  top: 10vh;
+  height: 28vh;
+  left: 59vw;
+}
+.svgOne svg{
+  height: 100%;
+}
+.svgTwo{
+  position: absolute;
+  top: 3vh;
+  height: 35vh;
+  left: 4vw;
+}
+.svgTwo i{
+  
+  font-size: 33vh;
+  color: #CFEFEB;
+}

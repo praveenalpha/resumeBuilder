@@ -1,0 +1,177 @@
+.final hr{
+    width: 100%;
+    color: gray;
+    /* margin: 0px; */
+}
+.final h3{
+    /* margin: 0px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.final h4{
+    /* margin: 0px; */
+}
+.final p{
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    word-wrap: break-word;
+}
+.final ul{
+    margin: 0px;
+}
+.skin1{
+
+    height: 100%;
+    width: 100%;
+}
+.skin-one{
+    height: 18%;
+    width: 95%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.skin-one h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 3rem;
+    color: #66CCCC;
+}
+.skin-two{
+    height: 15%;
+    width: 95%;
+    margin: auto;
+}
+.skin-two h3{
+    margin: 0px;
+}
+.skin-two hr{
+    margin: 0px;
+}
+
+.skin-three{
+    height: 15%;
+    width: 95%;
+    margin: auto;
+}
+.skin-three h3{
+    margin: 0px;
+}
+.skin-three hr{
+    margin: 0px;
+}
+
+.skin-three-skills{
+    height: 82%;
+    width: 100%;
+    display: flex;
+}
+.skin-three-skills-one{
+    width: 33%;
+}
+.skin-three-skills-two{
+    width: 33%;
+}
+.skin-three-skills-three{
+    width: 33%;
+}
+.skin-four{
+    height: 40%;
+    width: 95%;
+    margin: auto;
+}
+.skin-four h3{
+    margin: 0px;
+}
+.skin-four hr{
+    margin: 0px;
+}
+
+.skin-five{
+    height: 8%;
+    width: 95%;
+    margin: auto;
+}
+.skin-five h4{
+    margin: 0px;
+}
+.skin-five p{
+    margin: 0px;
+}
+.skin-one-contact{
+    height: 20%;
+    width: 95%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skin-one-contact h1{
+    
+}
+.skin-two-contact{
+    height: 15%;
+    width: 95%;
+}
+.skin-three-contact{
+    height: 15%;
+    width: 95%;
+}
+.skin-four-contact{
+    height: 40%;
+    width: 95%;
+}
+.skin-five-contact{
+    height: 10%;
+    width: 95%;
+}
+.contact-preview-box hr{
+    width: 100%;
+    color: gray;
+    /* margin: 0px; */
+}
+.contact-preview-box h3{
+    /* margin: 0px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contact-preview-box ul{
+    margin: 0px;
+}
+.contact-preview-box p{
+    margin: 0px;
+    /* height: 100%; */
+    width: 100%;
+    word-wrap: break-word;
+}
+.skin-one-contact h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px; */
+    height: 2rem;
+    color: lightblue;
+    /* flex-direction: column; */
+}
+.skin-two-contact p{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    word-wrap: break-word;
+}
+.skin-five-contact h4{
+    margin: 0px;
+}
+.skin-five-contact p{
+    margin: 0px;
+}

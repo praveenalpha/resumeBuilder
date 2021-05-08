@@ -1,0 +1,93 @@
+.skin4{
+    height: 100%;
+    /* width: 100%; */
+}
+.skin4-one{
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+.skin4-one h1{
+    margin: 0;
+    font-size: 3rem;
+}
+.skin4-one p{
+    color: gray;
+}
+.skin4-two{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1vw;
+    height: 15%;
+}
+.skin4-two h3{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.skin4-two p{
+    color: gray;
+}
+.skin4-three{
+    height: 15%;
+    width: 90%;
+    margin: auto;
+}
+.skin4-three h3{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.skin4-three-one{
+    display: flex;
+    justify-content: space-between;
+}
+.skin4-three-skills-one{
+
+}
+.skin4-four{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.skin4-four h3{
+    display: flex;
+    justify-content: end;
+}
+.skin4-four-inner{
+
+}
+.skin4-four-upper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.skin4-four-upper-one{
+
+}
+.skin4-four-upper-one h4{
+    margin: 0px;
+}
+.skin4-four-upper-two{
+
+}
+.skin4-five{
+    width: 90%;
+    margin: auto;
+    height: 15%;
+}
+.skin4-five h3{
+    display: flex;
+    justify-content: end;
+}
+.skin4-five-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.skin4-five-inner-one{
+
+}
+.skin4-five-inner-two{
+
+}

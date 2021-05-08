@@ -1,0 +1,103 @@
+.skin7{
+    height: 100%;
+    width: 100%;
+}
+.skin7-one{
+    width: 95%;
+    height: 15%;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+.skin7-one h1{
+    margin: 0;
+    font-size: 3rem;
+}
+.skin7-one p{
+    color: gray;
+}
+.skin7-two{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1vw;
+    height: 15%;
+}
+.skin7-two h3{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.skin7-two p{
+    color: gray;
+    width: 95%;
+    display: flex;
+    margin-left: inherit;
+}
+.skin7-three{
+    height: 15%;
+    width: 95%;
+    margin: auto;
+}
+.skin7-three h3{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.skin7-three-one{
+    width: 95%;
+    display: flex;
+    margin-left: inherit;
+    justify-content: space-between;
+}
+.skin7-three-skills-one{
+
+}
+.skin7-four{
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+.skin7-four h3{
+    display: flex;
+    justify-content: end;
+}
+.skin7-four-inner{
+    width: 95%;
+    display: flex;
+    margin-left: inherit;
+    flex-direction: column;
+}
+.skin7-four-upper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.skin7-four-upper-one{
+
+}
+.skin7-four-upper-one h4{
+    margin: 0px;
+}
+.skin7-four-upper-two{
+
+}
+.skin7-five{
+    width: 95%;
+    margin: auto;
+    height: 15%;
+}
+.skin7-five h3{
+    display: flex;
+    justify-content: end;
+}
+.skin7-five-inner{
+    justify-content: space-between;
+    width: 95%;
+    display: flex;
+    margin-left: inherit;
+}
+.skin7-five-inner-one{
+
+}
+.skin7-five-inner-two{
+
+}

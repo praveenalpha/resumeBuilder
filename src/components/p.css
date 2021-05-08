@@ -1,0 +1,21 @@
+/* html,
+body {
+  background: gray;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+} */
+
+/* #root {
+  height: 100vh;
+  
+   /* position: absolute; */
+
+/* } */ 
+/* .p{
+  /* position: absolute; */
+  /* z-index: -1;  */
+/* } */ 
