@@ -20,5 +20,5 @@
   <li>debounce function for changing state while hovering on each resume template</li>
   <li>Event Bubbling and Capturing :-> hover on img results in hovering of its parent div as well which creates problem onMouseOver event applied to change class of img tag</li>
  <li>can not push a nested objects to firestore array, use spread operator(...) in front of your object instead(firebase.firestore.FieldValue.arrayUnion(...this.props.experienceDetails)).</li>
-  <li>Used history object of react render prop to navigate through different routes https://distracted-yonath-2f087f.netlify.app/final</li>
+  <li>Used history object of react render prop to navigate through different routes</li>
   </ul>
