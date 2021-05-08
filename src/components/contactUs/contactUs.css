@@ -1,0 +1,319 @@
+/* 
+Mimi Kim
+github.com/mimikim
+*/
+
+.contact-us{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right top, #313640, #58616b, #839098, #b2c1c8, #e4f5f9);
+}
+.credit {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10vw;
+  top: 20vh;
+  height: 70vh;
+  justify-content: space-evenly;
+}
+.credit input{
+
+  width: 30vw;
+  margin-bottom: 4vh;
+}
+.credit button{
+  margin-top: 5vh;
+  height: 7vh;
+  width: 15vw;
+  font-size: 1.5rem;
+  margin-left: 17vh;
+  border-radius: 17px;
+}
+.cow-container {
+  min-height: 300px;
+  padding: 70px 100px;
+  z-index: 1;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+}
+
+.cow-body {
+  margin: auto;
+  background: #f8f8ff;
+  border: 6px solid #222222;
+  width: 290px;
+  height: 202px;
+  display: inline-block;
+  position: relative;
+  border-radius: 200px 100px 200px 200px;
+  -webkit-animation: floating-cow 5s linear infinite alternate;
+  animation: floating-cow 5s linear infinite alternate;
+}
+.cow-body .head {
+  position: absolute;
+  right: -60px;
+  top: -27px;
+  -webkit-animation: head-bob 2s linear infinite alternate;
+  animation: head-bob 2s linear infinite alternate;
+}
+.cow-body .body-spot {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  background: #444852;
+  width: 160px;
+  height: 130px;
+  border-radius: 117px 0 96px 28px;
+  z-index: 2;
+}
+.cow-body .leg {
+  border: 6px solid #222222;
+  border-top: 0;
+  height: 94px;
+  width: 16px;
+  background: #f8f8ff;
+  display: inline-block;
+  position: absolute;
+  bottom: -55px;
+  border-radius: 0 0 10px 10px;
+}
+.cow-body .leg.left {
+  left: 45px;
+}
+.cow-body .leg.right {
+  right: 55px;
+}
+.cow-body .leg .hoof {
+  background: #b8a381;
+  height: 20px;
+  width: 16px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0 0 1px 1px;
+}
+.cow-body .tail {
+  margin-top: 60px;
+  border: 6px solid #222222;
+  border-top: 0;
+  height: 60px;
+  width: 8px;
+  background: #f8f8ff;
+  display: inline-block;
+  transform: rotate(60deg);
+  transform-origin: top;
+  border-radius: 20px 0 100px 20px;
+  -webkit-animation: tail-wagging 0.2s linear infinite alternate;
+  animation: tail-wagging 0.2s linear infinite alternate;
+}
+
+.cow-head {
+  background: #f8f8ff;
+  border: 6px solid #222222;
+  height: 143px;
+  width: 105px;
+  border-radius: 27px 27px 60px 60px;
+  position: absolute;
+  right: 0;
+}
+.cow-head .spot {
+  background: #444852;
+  width: 50px;
+  height: 70px;
+  border-radius: 16px 0 35px 0;
+}
+.cow-head .eyes {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+.cow-head .eyes .eye {
+  background: #222222;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+.cow-head .eyes .eye.left {
+  left: 25px;
+}
+.cow-head .eyes .eye.right {
+  right: 25px;
+}
+.cow-head .nose {
+  background: #fdcad5;
+  height: 50px;
+  width: 105px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0 0 50px 50px;
+}
+.cow-head .nose .nostrils {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+.cow-head .nose .nostrils .nostril {
+  background: #222222;
+  width: 4px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+.cow-head .nose .nostrils .nostril.left {
+  left: 40px;
+  transform: rotate(-30deg);
+}
+.cow-head .nose .nostrils .nostril.right {
+  right: 40px;
+  transform: rotate(30deg);
+}
+.cow-head .horns {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+}
+.cow-head .horns .horn {
+  position: absolute;
+  background: #b8a381;
+  border: 6px solid #222222;
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  border-radius: 16px;
+}
+.cow-head .horns .horn.left {
+  left: 15px;
+}
+.cow-head .horns .horn.right {
+  right: 15px;
+}
+.cow-head .ears {
+  position: absolute;
+  top: -10px;
+  width: 100%;
+}
+.cow-head .ears .ear {
+  position: absolute;
+  background: #f8f8ff;
+  border: 6px solid #222222;
+  width: 14px;
+  height: 18px;
+  display: inline-block;
+  border-radius: 15px 15px 20px 20px;
+}
+.cow-head .ears .ear.left {
+  left: -15px;
+}
+.cow-head .ears .ear.right {
+  right: -15px;
+}
+
+.astronaut-helmet {
+  border: 6px solid #222222;
+  background: none;
+  position: absolute;
+  top: -50px;
+  right: -49px;
+  height: 218px;
+  width: 200px;
+  border-radius: 50%;
+  background: rgba(220, 220, 220, 0.8);
+}
+.astronaut-helmet .glare {
+  background: #ffffff;
+  height: 76px;
+  width: 17px;
+  border-radius: 100%;
+  position: absolute;
+  right: 27px;
+  top: 17px;
+  transform: rotate(-36deg);
+  z-index: 1;
+}
+
+@keyframes floating-cow {
+  0% {
+    left: 0;
+    top: 20px;
+  }
+  25% {
+    left: 30px;
+    top: 20px;
+  }
+  50% {
+    left: 50px;
+    top: 60px;
+  }
+  75% {
+    left: 10px;
+    top: 30px;
+  }
+  100% {
+    left: 5px;
+    top: 50px;
+  }
+}
+@-webkit-keyframes floating-cow {
+  0% {
+    left: 0;
+    top: 20px;
+  }
+  25% {
+    left: 30px;
+    top: 20px;
+  }
+  50% {
+    left: 50px;
+    top: 60px;
+  }
+  75% {
+    left: 10px;
+    top: 30px;
+  }
+  100% {
+    left: 5px;
+    top: 50px;
+  }
+}
+@keyframes tail-wagging {
+  from {
+    transform: rotate(60deg);
+  }
+  to {
+    transform: rotate(70deg);
+  }
+}
+@-webkit-keyframes tail-wagging {
+  from {
+    transform: rotate(60deg);
+  }
+  to {
+    transform: rotate(70deg);
+  }
+}
+@keyframes head-bob {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes head-bob {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
