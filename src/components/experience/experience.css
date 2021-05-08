@@ -1,0 +1,44 @@
+.btn-experience-one{
+  width: 10vw;
+  margin-left: 1vw;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.btn-experience-two{
+  width: 20vw;
+  height: 8vh;
+  margin-left: 14vw;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 3vh;
+}
+.btn-experience-one:hover{
+  cursor: pointer;
+}
+.btn-experience-two:hover{
+  cursor: pointer;
+}
+.descriptionTemp{
+  display: flex;
+    flex-direction: inherit;
+    width: 91%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.descriptionTemp button{
+  height: 7vh;
+  width: 14vw;
+  border-radius: 0.5rem;
+  margin-left: 0.5vw;
+
+}
+#descriptionTemp{
+  width: 100%;
+}
